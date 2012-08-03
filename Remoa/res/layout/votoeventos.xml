@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tfTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:textStyle="italic"
+        android:text="TIPO" />
+
+    <TextView
+        android:id="@+id/tfNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                   
+        android:text="NomeEvento" />
+
+    <TextView
+        android:id="@+id/tfDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textSize="15px"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tfDataHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textStyle="italic"
+        android:text="datahora" />
+
+    <TextView
+        android:id="@+id/tfQtdConconcordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qtd conc:" />
+
+    <TextView
+        android:id="@+id/tfQtdDiscordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qtd disc:" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btConcordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="CONCORDAR" />
+        <Button
+            android:id="@+id/btDiscordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"             
+            android:text="DISCORDAR" />
+
+    </TableRow>
+
+</LinearLayout>

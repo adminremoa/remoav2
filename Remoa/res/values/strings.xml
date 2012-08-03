@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Remoa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_mapa">MapaActivity</string>
+    <string name="title_activity_logar">LogarActivity</string>
+    <string name="title_activity_remoa_mapa">RemoaMapaActivity</string>
+    <string name="tipo_eventos">Tipo de Evento</string>
+
+    <string-array name="tipo_array">
+        <item>.........</item>
+        <item>SAÚDE</item>
+        <item>TRÂNSITO</item>
+        <item>SEGURANÇA</item>
+        <item>ENTRETENIMENTO</item>
+    </string-array>
+
+    <string name="title_activity_remoa_mapa_principal">RemoaMapaPrincipalActivity</string>
+
+</resources>

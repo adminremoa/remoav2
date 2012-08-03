@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      
+    <com.google.android.maps.MapView
+		    android:id="@+id/mapa"
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+		    android:apiKey="04IvU-cNhZ6k-URresqZB5n2DxlDt_I9X_dnEAw"
+		    android:clickable="true"
+		    android:enabled="true" 
+		 />
+
+    
+    <!-- android:apiKey="0v_yMaFg_Uz5sKJ8raWebVmSQVq1Oq1D56qdHug" pc_unipampa -->
+    <!-- android:apiKey="0v_yMaFg_Uz5PAc-FGYrpMY_SRv3hcSJhJQ04zQ" pc casa -->
+	<!-- android:apiKey="04IvU-cNhZ6k-URresqZB5n2DxlDt_I9X_dnEAw" Ricardo -->
+</LinearLayout>
